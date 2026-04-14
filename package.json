@@ -1,0 +1,55 @@
+{
+  "name": "create-mern-pro",
+  "version": "1.1.2",
+  "description": "A professional, production-ready MERN stack scaffolding CLI tool",
+  "keywords": [
+    "mern",
+    "cli",
+    "scaffold",
+    "react",
+    "express",
+    "mongodb",
+    "nodejs",
+    "fullstack",
+    "boilerplate"
+  ],
+  "author": "create-mern-pro",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-mern-pro": "./bin/index.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "templates"
+  ],
+  "scripts": {
+    "start": "node bin/index.js",
+    "dev": "node --watch bin/index.js",
+    "test": "node bin/index.js test-project --dry-run"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1",
+    "gradient-string": "^2.0.2",
+    "figlet": "^1.7.0",
+    "boxen": "^7.1.1",
+    "commander": "^12.0.0",
+    "validate-npm-package-name": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/create-mern-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/create-mern-pro/issues"
+  },
+  "homepage": "https://github.com/your-username/create-mern-pro#readme"
+}
