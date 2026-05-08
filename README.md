@@ -1,4 +1,5 @@
 # create-mern-pro 🚀
+https://www.npmjs.com/package/create-mern-pro
 
 A fast, interactive, production-ready CLI tool to instantly scaffold a modern MERN (MongoDB, Express, React, Node.js) stack application. Stop wasting time configuring Webpack, setting up Express routes, or wiring up Redux. Run one command and get straight to building your application.
 
